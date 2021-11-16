@@ -131,12 +131,8 @@ public class Menu{
 
 		    break;
 
-      	    case 3:
-		    System.out.println("Selecciono la opcion 3. SEMINUEVOS");
-		    break;
-
-	    case 4:
-		    System.out.println("Selecciono la opcion 4. PROMOCIONES");
+	    case 3:
+		    System.out.println("Selecciono la opcion 3. PROMOCIONES");
 		    Auto auto1 = new Auto("Azul", "Chevrolet", 2017, 6, "estandar", "hibrido", 4, 14735379, 204900, 2456, "7%")
 		    System.out.println("Color: " + auto1.getColor());
 		    System.out.println("Marca: " + auto1.getMarca());
@@ -203,12 +199,12 @@ public class Menu{
 	    System.out.println("Descuento: " + auto5.getDescuento());
 	    break;
 
-	    case 5:
-		    System.out.println("Selecciono la opcion 5. VENDEDORES");
+	    case 4:
+		    System.out.println("Selecciono la opcion 4. VENDEDORES");
 		    break;
 
-	    case 6:
-		    System.out.println("Selecciono la opcion 6. CLIENTES");
+	    case 5:
+		    System.out.println("Selecciono la opcion 5. CLIENTES");
 		    System.out.println("HISTORIAL DE CLIENTES");
 	//Cliente 1 ocupando constructor 1 de la clase Comprador
 	Comprador cliente1 = new Comprador("Mildred Calvillo", 38523564, 2021, "noviembre del 2005", "efectivo", 1);
@@ -244,7 +240,7 @@ public class Menu{
 
 		    break;
 
-	    case 7:
+	    case 6:
 		    salida = true;
 		    break;
 		    //Para que solo este en el rango
