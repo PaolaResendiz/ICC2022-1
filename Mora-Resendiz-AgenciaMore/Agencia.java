@@ -11,11 +11,10 @@ public class Menu{
 	
 	    System.out.println("1. Autos mas vendidos");
 	    System.out.println("2. Autos disponibles");
-	    System.out.println("3. Seminuevos");
-	    System.out.println("4. Promociones");
-	    System.out.println("5. Vendedores");
-	    System.out.println("6. Clientes");
-      	    System.out.println("7. Salir");
+	    System.out.println("3. Promociones");
+	    System.out.println("3. Vendedores");
+	    System.out.println("5. Clientes");
+      	    System.out.println("6. Salir");
 	    System.out.print("Introducir el numero de la accion que desea realizar: ");
 	    opcion = sc.nextInt();
 
@@ -26,7 +25,59 @@ public class Menu{
 		   
 	    case 2:
 		    System.out.println("Selecciono la opcion 2. AUTOS DISPONIBLES");
-		    	Auto auto5 = new Auto("Rojo", "Volkswagen", 2019, 4, "automatico", "electico", 4, 12345687, 389000, 5468, "10%")
+		    Auto auto1 = new Auto("Azul", "Chevrolet", 2017, 6, "estandar", "hibrido", 4, 14735379, 204900, 2456, "7%")
+		    System.out.println("Color: " + auto1.getColor());
+		    System.out.println("Marca: " + auto1.getMarca());
+		    System.out.println("Año de fabricación : " + auto1.getFabricacion());
+		    System.out.println("Numero de pasajeros: " + auto1.getPasajeros());
+		    System.out.println("Tipo de auto: " + auto1.getTipodeauto());
+		    System.out.println("Tipo de energia: " + auto1.getTipodeenergia());
+		    System.out.println("Numero de puertas: " + auto1.getPuertas());
+		    System.out.println("Modelo: " + auto1.getModelo());
+		    System.out.println("Precio: " + auto1.getPrecio());
+		    System.out.println("Matricula: " + auto1.getMatricula());
+		    System.out.println("Descuentos: " + auto1.getDescuento());
+
+		    Auto auto2 = new Auto("Negro", "Renault", 2020, 4, "automatico", "hibrido", 2, 67536487, 194900, 5490, "No aplica")
+		    System.out.println("Color: " + auto2.getColor());
+		    System.out.println("Marca: " + auto2.getMarca());
+		    System.out.println("Año de fabricación : " + auto2.getFabricacion());
+		    System.out.println("Numero de pasajeros: " + auto2.getPasajeros());
+		    System.out.println("Tipo de auto: " + auto2.getTipodeauto());
+		    System.out.println("Tipo de energia: " + auto2.getTipodeenergia());
+		    System.out.println("Numero de puertas: " + auto2.getPuertas());
+		    System.out.println("Modelo: " + auto2.getModelo());
+		    System.out.println("Precio: " + auto2.getPrecio());
+		    System.out.println("Matricula: " + auto2.getMatricula());
+		    System.out.println("Descuentos: " + auto2.getDescuento());
+
+		    Auto auto3 = new Auto("Azul", "Honda", 2019, 5, "estandar", "electrico", 4, 78537954, 170000, 8976, "15%")
+		    System.out.println("Color: " + auto3.getColor());
+		    System.out.println("Marca: " + auto3.getMarca());
+		    System.out.println("Año de fabricación : " + auto3.getFabricacion());
+		    System.out.println("Numero de pasajeros: " + auto3.getPasajeros());
+		    System.out.println("Tipo de auto: " + auto3.getTipodeauto());
+		    System.out.println("Tipo de energia: " + auto3.getTipodeenergia());
+		    System.out.println("Numero de puertas: " + auto3.getPuertas());
+		    System.out.println("Modelo: " + auto3.getModelo());
+		    System.out.println("Precio: " + auto3.getPrecio());
+		    System.out.println("Matricula: " + auto3.getMatricula());
+		    System.out.println("Descuentos: " + auto3.getDescuento());
+
+		    Auto auto4 = new Auto("Plateado", "Hyundai", 2020, 6, "estandar", "electrico", 4, 63892908, 303000, 8965, "10%")
+		    System.out.println("Color: " + auto1.getColor());
+		    System.out.println("Marca: " + auto1.getMarca());
+		    System.out.println("Año de fabricación : " + auto1.getFabricacion());
+		    System.out.println("Numero de pasajeros: " + auto1.getPasajeros());
+		    System.out.println("Tipo de auto: " + auto1.getTipodeauto());
+		    System.out.println("Tipo de energia: " + auto1.getTipodeenergia());
+		    System.out.println("Numero de puertas: " + auto1.getPuertas());
+		    System.out.println("Modelo: " + auto1.getModelo());
+		    System.out.println("Precio: " + auto1.getPrecio());
+		    System.out.println("Matricula: " + auto1.getMatricula());
+		    System.out.println("Descuentos: " + auto1.getDescuento());
+		    
+		    Auto auto5 = new Auto("Rojo", "Volkswagen", 2019, 4, "automatico", "electico", 4, 12345687, 389000, 5468, "10%")
 	    System.out.println("Color: " + auto5.getColor());
 	    System.out.println("Marca: " + auto5.getMarca());
 	    System.out.println("Año de fabricación: " + auto5.getFabricación());
@@ -86,7 +137,71 @@ public class Menu{
 
 	    case 4:
 		    System.out.println("Selecciono la opcion 4. PROMOCIONES");
-		    break;
+		    Auto auto1 = new Auto("Azul", "Chevrolet", 2017, 6, "estandar", "hibrido", 4, 14735379, 204900, 2456, "7%")
+		    System.out.println("Color: " + auto1.getColor());
+		    System.out.println("Marca: " + auto1.getMarca());
+		    System.out.println("Año de fabricación : " + auto1.getFabricacion());
+		    System.out.println("Numero de pasajeros: " + auto1.getPasajeros());
+		    System.out.println("Tipo de auto: " + auto1.getTipodeauto());
+		    System.out.println("Tipo de energia: " + auto1.getTipodeenergia());
+		    System.out.println("Numero de puertas: " + auto1.getPuertas());
+		    System.out.println("Modelo: " + auto1.getModelo());
+		    System.out.println("Precio: " + auto1.getPrecio());
+		    System.out.println("Matricula: " + auto1.getMatricula());
+		    System.out.println("Descuentos: " + auto1.getDescuento());
+
+		    Auto auto3 = new Auto("Azul", "Honda", 2019, 5, "estandar", "electrico", 4, 78537954, 170000, 8976, "15%")
+		    System.out.println("Color: " + auto3.getColor());
+		    System.out.println("Marca: " + auto3.getMarca());
+		    System.out.println("Año de fabricación : " + auto3.getFabricacion());
+		    System.out.println("Numero de pasajeros: " + auto3.getPasajeros());
+		    System.out.println("Tipo de auto: " + auto3.getTipodeauto());
+		    System.out.println("Tipo de energia: " + auto3.getTipodeenergia());
+		    System.out.println("Numero de puertas: " + auto3.getPuertas());
+		    System.out.println("Modelo: " + auto3.getModelo());
+		    System.out.println("Precio: " + auto3.getPrecio());
+		    System.out.println("Matricula: " + auto3.getMatricula());
+		    System.out.println("Descuentos: " + auto3.getDescuento());
+
+		    Auto auto4 = new Auto("Plateado", "Hyundai", 2020, 6, "estandar", "electrico", 4, 63892908, 303000, 8965, "10%")
+		    System.out.println("Color: " + auto1.getColor());
+		    System.out.println("Marca: " + auto1.getMarca());
+		    System.out.println("Año de fabricación : " + auto1.getFabricacion());
+		    System.out.println("Numero de pasajeros: " + auto1.getPasajeros());
+		    System.out.println("Tipo de auto: " + auto1.getTipodeauto());
+		    System.out.println("Tipo de energia: " + auto1.getTipodeenergia());
+		    System.out.println("Numero de puertas: " + auto1.getPuertas());
+		    System.out.println("Modelo: " + auto1.getModelo());
+		    System.out.println("Precio: " + auto1.getPrecio());
+		    System.out.println("Matricula: " + auto1.getMatricula());
+		    System.out.println("Descuentos: " + auto1.getDescuento());
+
+		    Auto auto8 = new Auto("Plateado", "Ford", 2018, 4, "automatico", "electrico", 4, 36914752, 210000, 4562, "15%")
+	    System.out.println("Color: " + auto8.getColor());
+	    System.out.println("Marca: " + auto8.getMarca());
+	    System.out.println("Año de fabricación: " + auto8.getFabricación());
+	    System.out.println("Número de pasajeros: " + auto8.getPasajeros());
+	    System.out.println("Tipo de auto: " + auto8.getTipodeauto());
+	    System.out.println("Tipo de energia: " + auto8.getTipodeenergia());
+	    System.out.println("Número de puertas: " + auto8.getPuertas());
+	    System.out.println("Modelo: " + auto8.getModelo());
+	    System.out.println("Precio: " + auto8.getPrecio());
+	    System.out.println("Matricula: " + auto8.getMatricula());
+	    System.out.println("Descuento: " + auto8.getDescuento());
+
+	    		    Auto auto5 = new Auto("Rojo", "Volkswagen", 2019, 4, "automatico", "electico", 4, 12345687, 389000, 5468, "10%")
+	    System.out.println("Color: " + auto5.getColor());
+	    System.out.println("Marca: " + auto5.getMarca());
+	    System.out.println("Año de fabricación: " + auto5.getFabricación());
+	    System.out.println("Número de pasajeros: " + auto5.getPasajeros());
+	    System.out.println("Tipo de auto: " + auto5.getTipodeauto());
+	    System.out.println("Tipo de energia: " + auto8.getTipodeenergia());
+	    System.out.println("Número de puertas: " + auto5.getPuertas());
+	    System.out.println("Modelo: " + auto5.getModelo());
+	    System.out.println("Precio: " + auto5.getPrecio());
+	    System.out.println("Matricula: " + auto5.getMatricula());
+	    System.out.println("Descuento: " + auto5.getDescuento());
+	    break;
 
 	    case 5:
 		    System.out.println("Selecciono la opcion 5. VENDEDORES");
